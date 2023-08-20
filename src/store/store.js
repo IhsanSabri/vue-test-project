@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia';
-import generateMockData from '../mock/mockData'; // Import the generated mock data
+import generateMockData from '../mock/mockData';
 
 export const useMockDataStore = defineStore('mockData', {
   state: () => ({

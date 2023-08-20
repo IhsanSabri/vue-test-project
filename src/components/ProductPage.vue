@@ -120,21 +120,21 @@ onMounted(() => {
 }
 
 .save-button:hover {
-  background-color: darkgreen; /* Change color on hover */
+  background-color: darkgreen;
 }
 
 .cancel-button {
   background-color: red;
   color: white;
   border: none;
-  padding: 12px 24px; /* Adjust padding as needed */
-  font-size: 18px; /* Adjust font size as needed */
+  padding: 12px 24px;
+  font-size: 18px;
   cursor: pointer;
-  border-radius: 8px; /* Add rounded corners */
-  text-decoration: none; /* Remove default link underline */
+  border-radius: 8px;
+  text-decoration: none;
 }
 
 .cancel-button:hover {
-  background-color: darkred; /* Change color on hover */
+  background-color: darkred;
 }
 </style>

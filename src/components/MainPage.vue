@@ -50,28 +50,28 @@ const mockData = mockDataStore.data;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Set height to fill the viewport */
+  height: 100vh;
 }
 
 .data-table {
-  border-collapse: collapse; /* Collapse borders between cells */
-  width: 80%; /* Set table width as needed */
-  margin: 0 auto; /* Center the table */
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .data-table th,
 .data-table td {
-  border: 1px solid #ddd; /* Add borders to cells */
-  padding: 8px; /* Add padding to cells */
-  text-align: center; /* Center-align cell content */
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
 }
 
 .data-table th {
-  background-color: #f2f2f2; /* Add background color to header cells */
+  background-color: #f2f2f2;
 }
 
 .data-table tbody tr:nth-child(even) {
-  background-color: #f2f2f2; /* Alternate background color for rows */
+  background-color: #f2f2f2;
 }
 
 .color-pallete-display {
